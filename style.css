@@ -91,6 +91,14 @@ nav a {
   background: #f27c12;
 }
 
+nav a {
+  transition: ease-in-out 0.2s;
+}
+
+nav a:hover {
+  color: #f79a32;
+}
+
 .section {
   padding: 4rem 2rem;
   text-align: center;
@@ -142,15 +150,17 @@ nav a {
 .contact button {
   padding: 1rem;
   border: none;
-  background: #0A84FF;
+  background: #f79a32;
   color: white;
   font-size: 1rem;
   border-radius: 8px;
   cursor: pointer;
+  transition: background 0.3s;
+
 }
 
 .contact button:hover {
-  background: #006fd6;
+  background: #f27c12;
 }
 
 footer {
