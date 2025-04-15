@@ -50,7 +50,9 @@ nav a {
   padding: 6rem 2rem;
   text-align: center;
   color: #fff;
-  background-image: url(img/pexels-pixabay-373543.jpg);
+  background-image: url("img/pexels-pixabay-373543.jpg");
+  background-repeat: no-repeat;
+
   /* background-position: center; */
   background-attachment: fixed;
   /* background: #eef6ff; */
@@ -102,14 +104,24 @@ nav a:hover {
 .section {
   padding: 4rem 2rem;
   text-align: center;
+  margin: auto;
+}
+
+.ltd {
   max-width: 1366px;
   margin: auto;
+}
+
+.deepblue {
+  background-color: #0f213b;
+  color: #fff;
 }
 
 .grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
   margin-top: 2rem;
 }
 
@@ -118,6 +130,7 @@ nav a:hover {
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: ease-in-out 0.3s;
 }
 
 .why ul {
@@ -130,6 +143,11 @@ nav a:hover {
 .why li {
   margin-bottom: 1rem;
 }
+
+#expertises .card:hover {
+  box-shadow: 0 0 30px  #f79a32;
+};
+
 
 .contact form {
   display: flex;
