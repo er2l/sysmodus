@@ -1,0 +1,34 @@
+<section class="clients">
+    <h2 data-aos="fade-up">{{ page.clients.title | default: 'Ils nous font confiance' }}</h2>
+    <div class="clients-carousel">
+        <div class="clients-track">
+            {% for client in page.clients.items %}
+            <div class="client-logo">
+                {% if client.logo %}
+                <img src="{{ client.logo | relative_url }}" alt="{{ client.name }}">
+                {% else %}
+                <div class="logo-placeholder">{{ client.name }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+            {% for client in page.clients.items %}
+            <div class="client-logo">
+                {% if client.logo %}
+                <img src="{{ client.logo | relative_url }}" alt="{{ client.name }}">
+                {% else %}
+                <div class="logo-placeholder">{{ client.name }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+            {% for client in page.clients.items %}
+            <div class="client-logo">
+                {% if client.logo %}
+                <img src="{{ client.logo | relative_url }}" alt="{{ client.name }}">
+                {% else %}
+                <div class="logo-placeholder">{{ client.name }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section> 

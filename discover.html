@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Découvrez SYSMODUS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="logo-sysmodus.svg" alt="Sysmodus" id="logo">
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="discover.html" class="nav-link">Services</a>
+            <a href="products.html" class="nav-link">Produits</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <div class="discover-hero">
+        <div class="discover-content" data-aos="fade-up">
+            <h1>Transformez votre vision en réalité</h1>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Solutions sur mesure</h3>
+                    <p>Des solutions adaptées à vos besoins spécifiques</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Technologies de pointe pour des résultats optimaux</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Accompagnement</h3>
+                    <p>Support expert et suivi personnalisé</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="discover-details">
+        <div class="detail-section" data-aos="fade-right">
+            <h2>Notre approche</h2>
+            <p>Nous combinons expertise technique et compréhension approfondie de vos enjeux pour délivrer des solutions innovantes qui dépassent vos attentes.</p>
+            <ul class="detail-list">
+                <li>Analyse approfondie de vos besoins</li>
+                <li>Développement agile et itératif</li>
+                <li>Tests rigoureux et validation</li>
+                <li>Déploiement et maintenance</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="discover-contact">
+        <h2 data-aos="fade-up">Commençons votre projet</h2>
+        <div class="contact-wrapper">
+            <form class="contact-form discover-form" data-aos="fade-up">
+                <input type="text" placeholder="Nom de l'entreprise" required>
+                <input type="text" placeholder="Nom du contact" required>
+                <input type="email" placeholder="Email professionnel" required>
+                <input type="tel" placeholder="Téléphone" required>
+                <textarea placeholder="Décrivez votre projet" required></textarea>
+                <button type="submit" class="submit-button">Lancer le projet</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sysmodus. Tous droits réservés. <a href="legal.html" class="footer-link">Mentions légales</a></p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html> 
